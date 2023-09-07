@@ -9,7 +9,7 @@ function Footer(){
               <hr className='hrr'/>
               <div>
 
-              <a  href='https://www.instagram.com/sushi_bar_paradise/?igshid=MWZjMTM2ODFkZg%3D%3D' target="_blank" style={{textDecoration:'none'}}>
+              <a  href='https://www.instagram.com/sushi_bar_paradise/?igshid=MWZjMTM2ODFkZg%3D%3D' rel="noreferrer"  target="_blank" style={{textDecoration:'none'}}>
               <InstagramIcon style={{color:'black'}} sx={{fontSize:'2.5rem'}}/>
               </a>
 

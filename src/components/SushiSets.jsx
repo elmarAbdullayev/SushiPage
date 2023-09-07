@@ -1,13 +1,9 @@
 import data from '../Data/SushiSets'
-import { useState } from 'react';
 
 
  function SushiSets(){
    
-  const [open,setOpen] = useState(false)
 
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false)
     return(
       <>
         <div className='ParentRolls'>

@@ -106,7 +106,7 @@ function Top(){
     {/* <a className="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >open</a> */}
  <div className={`offcanvas offcanvas-start  ${open ? 'show' :''}`} data-bs-scroll="false" data-bs-backdrop="false"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div className="offcanvas-header" data-bs-scroll="true" >
-    <h5 className="offcanvas-title" id="offcanvasExampleLabel"><img className='imgLogoTop' style={{width:'100px'}} src={Logo} alt="" /></h5>
+    <h5 className="offcanvas-title" id="offcanvasExampleLabel"><img className='imgLogoTop' style={{width:'100px'}} src={Logo} alt="foto" /></h5>
     <button type="button" style={{width:'100px',fontSize:'25px'}} className={`btn-close text-reset ${!open ?'close' :''}`}  onClick={handleClose}></button>
   </div>
   <hr />
@@ -138,7 +138,7 @@ Restoran Aliyar Aliyev 160 C <LocationOnIcon/></div>
 </div>
     <hr />
     <div>
-    <a href='https://www.instagram.com/sushi_bar_paradise/?igshid=MWZjMTM2ODFkZg%3D%3D' target="_blank" style={{textDecoration:'none'}}>
+    <a href='https://www.instagram.com/sushi_bar_paradise/?igshid=MWZjMTM2ODFkZg%3D%3D' rel="noreferrer"  target="_blank" style={{textDecoration:'none'}}>
     
     <span style={{cursor:'pointer',color:'black'}} ><InstagramIcon sx={{fontSize:'50px'}}/></span>
     <span  style={{color:'black'}}>  Instagram Səhifəmiz.</span>
@@ -189,18 +189,18 @@ Restoran Aliyar Aliyev 160 C <LocationOnIcon/></div>
     <div className='hr'></div>
 
    <ul className='forSmaylics'>
-   <NavLink to='/lunch' className='icon'> <img className='iconSelf' src={lunch} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Lunch</span></NavLink>
-   <NavLink to='/rolls' className='icon'> <img className='iconSelf' src={sushi1} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Sushi Rolls</span></NavLink>
-   <NavLink to='/SushiSets' className='icon'><img className='iconSelf' src={sushi3} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Sushi Sets</span></NavLink>
-   <NavLink to='/BakedSet' className='icon'><img className='iconSelf' src={sushiIcon} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Baked Sets</span></NavLink>
-    <NavLink to='/extra' className='icon'><img className='iconSelf' src={japaneseFood} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Extra</span></NavLink>
-    <NavLink to='/soups' className='icon'> <img className='iconSelf' src={nigiri1} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Soups</span> </NavLink>
-    <NavLink to='/grill' className='icon'> <img className='iconSelf' src={nigiri} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Grill Menu</span></NavLink>  
-    <NavLink to='/noodles' className='icon'><img className='iconSelf' src={sushi2} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Noodles & Rise</span></NavLink> 
-    <NavLink to='/salad' className='icon'><img className='iconSelf' src={sushiRoll} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Salads & Roll</span></NavLink>  
-    <NavLink to='/burger&Appetizer' className='icon'><img className='iconSelf' src={sushi} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Burger & Appetizers</span></NavLink>  
-    <NavLink to='/drink' className='icon'><img className='iconSelf' src={sushiRoll2} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Beverages</span></NavLink>  
-    <NavLink to='/dessert' className='icon'><img className='iconSelf' src={cake} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Desserts</span></NavLink>  
+   <NavLink to='/lunch' className='icon'> <img alt='foto' className='iconSelf' src={lunch} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Lunch</span></NavLink>
+   <NavLink to='/rolls' className='icon'> <img alt='foto' className='iconSelf' src={sushi1} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Sushi Rolls</span></NavLink>
+   <NavLink to='/SushiSets' className='icon'><img alt='foto' className='iconSelf' src={sushi3} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Sushi Sets</span></NavLink>
+   <NavLink to='/BakedSet' className='icon'><img alt='foto' className='iconSelf' src={sushiIcon} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Baked Sets</span></NavLink>
+    <NavLink to='/extra' className='icon'><img alt='foto' className='iconSelf' src={japaneseFood} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Extra</span></NavLink>
+    <NavLink to='/soups' className='icon'> <img alt='foto' className='iconSelf' src={nigiri1} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Soups</span> </NavLink>
+    <NavLink to='/grill' className='icon'> <img alt='foto' className='iconSelf' src={nigiri} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Grill Menu</span></NavLink>  
+    <NavLink to='/noodles' className='icon'><img alt='foto' className='iconSelf' src={sushi2} style={{width:'40px',height:'40px'}}/><span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Noodles & Rise</span></NavLink> 
+    <NavLink to='/salad' className='icon'><img alt='foto' className='iconSelf' src={sushiRoll} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Salads & Roll</span></NavLink>  
+    <NavLink to='/burger&Appetizer' className='icon'><img alt='foto' className='iconSelf' src={sushi} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Burger & Appetizers</span></NavLink>  
+    <NavLink to='/drink' className='icon'><img alt='foto' className='iconSelf' src={sushiRoll2} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Beverages</span></NavLink>  
+    <NavLink to='/dessert' className='icon'><img alt='foto' className='iconSelf' src={cake} style={{width:'40px',height:'40px'}}/> <span className={!phone ? 'textForIcon' : 'textForIconPhoneSize'}>Desserts</span></NavLink>  
          </ul>
  
  </div>
